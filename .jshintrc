@@ -1,0 +1,44 @@
+{
+  "node": true,
+  "eqeqeq": true,
+  "curly": true,
+  "strict": true,
+  "trailing": true,
+  "white": true,
+  "undef": true,
+  "unused": false,
+  "indent": 2,
+  "quotmark": "single",
+
+  "eqnull": true,
+  "expr": true,
+  "newcap": false,
+  "loopfunc": true,
+  "bitwise": false,
+
+  "browser": true,
+  "devel": true,
+  "predef": [
+    "angular",
+    "expect",
+    "describe"
+  ],
+  "globals": {
+    "angular": false,
+
+    // For Jasmine
+    "after"      : false,
+    "afterEach"  : false,
+    "before"     : false,
+    "beforeEach" : false,
+    "describe"   : false,
+    "expect"     : false,
+    "jasmine"    : false,
+    "module"     : false,
+    "spyOn"      : false,
+    "inject"     : false,
+    "it"         : false,
+    "xdescribe"  : false,
+    "xit"        : false
+  }
+}
